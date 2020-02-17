@@ -204,73 +204,6 @@ img.services-info-img {
 .foot-text li {
 	margin-bottom: 2vh;
 }
-@media(max-width: 500px) {
-	body {
-		width: 100%;
-	}
-	.serv-body {
-		flex-direction: column;
-	}
-	.serv-body section{
-        width: 95%;
-    }
-    header h1, header p{
-        width: 95%;
-        margin: 0 auto;
-    }
-	nav {
-        flex-direction: column-reverse;
-	}
-	.links {
-		width: 100%;
-        flex-direction: column;
-        
-    }
-    .links a {
-        width: 100%;
-        text-align: center;
-        padding: 2vh 0;
-    }
-    .logo-container {
-        padding-bottom: 2vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    .links a, .logo-container {
-        border-bottom: 1px solid grey;
-    }
-	img.services-info-img {
-		display: none;
-	}
-	.foot-text {
-		min-width: 100%;
-    }
-    .circle-snip {
-        display: none;
-    }
-    div.above, .middle-img, div.below{
-        max-width: 95%;
-        margin: 0 auto;
-    }
-    hr {
-        max-width: 95%;
-        border: 1px solid black;
-        margin: 5vh auto;
-    }
-    div.above, div.below {
-        flex-wrap: wrap;
-    }
-    div.above section, div.below section {
-        width: 100%;
-        margin-bottom: 5vh;
-    }
-    footer {
-        width: 95%;
-        margin: 0 auto;
-    }
-}
-
 @media(max-width: 800px) {
     body {
 		width: 100%;
@@ -338,5 +271,71 @@ img.services-info-img {
     }
     .serv-body section {
         width: 48%;
+    }
+}
+@media(max-width: 500px) {
+	body {
+		width: 100%;
+	}
+	.serv-body {
+		flex-direction: column;
+	}
+	.serv-body section{
+        width: 95%;
+    }
+    header h1, header p{
+        width: 95%;
+        margin: 0 auto;
+    }
+	nav {
+        flex-direction: column-reverse;
+	}
+	.links {
+		width: 100%;
+        flex-direction: column;
+        
+    }
+    .links a {
+        width: 100%;
+        text-align: center;
+        padding: 2vh 0;
+    }
+    .logo-container {
+        padding-bottom: 2vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .links a, .logo-container {
+        border-bottom: 1px solid grey;
+    }
+	img.services-info-img {
+		display: none;
+	}
+	.foot-text {
+		min-width: 100%;
+    }
+    .circle-snip {
+        display: none;
+    }
+    div.above, .middle-img, div.below{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    hr {
+        max-width: 95%;
+        border: 1px solid black;
+        margin: 5vh auto;
+    }
+    div.above, div.below {
+        flex-wrap: wrap;
+    }
+    div.above section, div.below section {
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+    footer {
+        width: 95%;
+        margin: 0 auto;
     }
 }
